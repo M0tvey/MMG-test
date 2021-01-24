@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MMG-test/static/css/main.414f4cb6.chunk.css",
+    "main.js": "/MMG-test/static/js/main.b8182830.chunk.js",
+    "main.js.map": "/MMG-test/static/js/main.b8182830.chunk.js.map",
+    "runtime-main.js": "/MMG-test/static/js/runtime-main.19c9ad9e.js",
+    "runtime-main.js.map": "/MMG-test/static/js/runtime-main.19c9ad9e.js.map",
+    "static/css/2.5a313248.chunk.css": "/MMG-test/static/css/2.5a313248.chunk.css",
+    "static/js/2.f9e3f638.chunk.js": "/MMG-test/static/js/2.f9e3f638.chunk.js",
+    "static/js/2.f9e3f638.chunk.js.map": "/MMG-test/static/js/2.f9e3f638.chunk.js.map",
+    "static/js/3.155692ca.chunk.js": "/MMG-test/static/js/3.155692ca.chunk.js",
+    "static/js/3.155692ca.chunk.js.map": "/MMG-test/static/js/3.155692ca.chunk.js.map",
+    "index.html": "/MMG-test/index.html",
+    "static/css/2.5a313248.chunk.css.map": "/MMG-test/static/css/2.5a313248.chunk.css.map",
+    "static/css/main.414f4cb6.chunk.css.map": "/MMG-test/static/css/main.414f4cb6.chunk.css.map",
+    "static/js/2.f9e3f638.chunk.js.LICENSE.txt": "/MMG-test/static/js/2.f9e3f638.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/MMG-test/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19c9ad9e.js",
+    "static/css/2.5a313248.chunk.css",
+    "static/js/2.f9e3f638.chunk.js",
+    "static/css/main.414f4cb6.chunk.css",
+    "static/js/main.b8182830.chunk.js"
+  ]
+}
