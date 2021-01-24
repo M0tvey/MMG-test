@@ -1,0 +1,46 @@
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+@keyframes fadeOut {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+.popup {
+  &_overlay {
+    animation: .5s linear 0s fadeIn;
+    background-color: rgba($b-color-1, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-close {
+      animation: .5s linear 0s fadeOut;
+    }
+  }
+
+  &_content {
+    padding: 40px 25px;
+    background-color: $body-b-color;
+    border-radius: 7px;
+    position: relative;
+  }
+
+  &_close {
+    background-color: $body-b-color;
+    border-radius: 50%;
+    box-shadow: -1px 1px 4px -2px #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    @include size(25px);
+  }
+}

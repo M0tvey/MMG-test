@@ -1,0 +1,100 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 14px/1em Arial;
+  color: $body-color;
+  background-color: $body-b-color;
+  min-width: 320px;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr 100px;
+  grid-template-columns: 100%;
+  min-height: 100vh;
+
+  &_logo {
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 1em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+
+  &_block {
+    padding: 50px 0 40px;
+  }
+}
+
+.main {
+  padding-bottom: 50px;
+}
+
+.bttn {
+  border: 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: $b-color-1;
+  color: #fff;
+  font-size: 17px;
+  padding: 0 20px;
+  min-width: 200px;
+  transition: all .3s ease;
+
+  &:hover {
+    background-color: darken($b-color-1, 10%);
+  }
+  
+  &_shadow {
+    position: relative;
+    top: 0;
+    color: $body-color;
+    box-shadow: 0 7px 5px -3px darken($b-color-1, 20%);
+
+    &:active {
+      box-shadow: 0 2px 5px -3px darken($b-color-1, 20%);
+      top: 3px;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  min-width: 260px;
+
+  &_item {
+    position: relative;
+    
+    & + & {
+      margin-top: 25px;
+    }
+  }
+  &_field {
+    border: solid 1px $b-color-1;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  &_button {
+    width: 100%;
+  }
+
+  &_error {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: #fff;
+    transform: translateY(calc(-50% - 3px));
+    font-size: 11px;
+    box-shadow: 1px 1px 3px #000;
+  }
+}
